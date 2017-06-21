@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 
 // Importing the popcorn image to use inside our image component
+// in the root directory
 import popcornImg from './popcorn.png';
 
 // We are now importing the TextInput component.
@@ -18,6 +19,9 @@ import {
 } from 'react-native';
 
 // We are also importing the SearchResults component that we created.
+// here we are importing a component
+// double {{}} to import styles directly
+// SearchResults is a dumb component at this point... not maintaining state
 import SearchResults from './SearchResults.js';
 
 class MovieSearchApp extends Component {

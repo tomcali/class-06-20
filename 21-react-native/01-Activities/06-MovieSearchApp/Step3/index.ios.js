@@ -24,12 +24,16 @@ class MovieSearchApp extends Component {
     this.state = {
       movie: ''
     };
+    // binding up front to make things faster
+      // an alternative to using arrow functions
     this.renderSearch = this.renderSearch.bind(this);
     this.handleMovieSubmit = this.handleMovieSubmit.bind(this);
   }
   handleMovieSubmit(event) {
     this.setState({ movie: event.nativeEvent.text });
   }
+  // see if there is a state with movie... movie inside it
+    // empty string is falsy value
   renderSearch() {
     if (this.state.movie) {
       return (

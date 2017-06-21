@@ -76,6 +76,8 @@ class Form extends Component {
             * Notice how we need to bind 'this', so that the render function
             * can access the state of its component. 
             */}
+
+            // when you are more than one level deep as here... bind the 'this'
           <TouchableOpacity style={styles.setter} onPress={this.setMessage.bind(this)}>
             <Text style={styles.setterText}>Submit</Text>
           </TouchableOpacity>

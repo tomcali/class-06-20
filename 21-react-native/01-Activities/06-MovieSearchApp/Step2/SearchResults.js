@@ -5,6 +5,8 @@ import {
   StyleSheet
 } from 'react-native';
 
+// SearchResults no longer a dumb component
+// state is maintained inside this component
 class SearchResults extends Component {
 
   // We are setting the initial state of this.state.movie to ''.
@@ -16,6 +18,12 @@ class SearchResults extends Component {
   }
 
   // When the component loads it will run the fetchData function.
+    // lifecycle state
+    // runs when search results first runs
+    // react-native has method called fetch
+    // an http module that returns a promise
+    // this is a get request to a url
+    // using ES6 anonymous function
   componentDidMount() {
     this.fetchData();
   }
@@ -99,4 +107,6 @@ const styles = StyleSheet.create({
   }
 });
 
+// only one component exported here
+// all other components here are within this component
 export default SearchResults;
