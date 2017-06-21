@@ -1,53 +1,89 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+//
+// ─── STYLE 1 (SOLVED) ─────────────────────────────────────────────────────────────
+//
+
+// Students: Make this app's layout
+// reflect the design in layout1.jpg
+// =================================
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View
 } from 'react-native';
 
-export default class AhmedsApp extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
-  }
+class AhmedsApp extends Component {
+    render() {
+        return (
+            <View style={styles.container}>
+              <View style=''>
+                <Text style={styles.header}>Header</Text>
+              </View>
+              <View style=''>
+                <Text style=''>Body</Text>
+              </View>
+              <View style=''>
+                <Text style=''>Footer</Text>
+              </View>
+            </View>
+        );
+    }
 }
 
+// this is where we do the react-native alternative to CSS styling
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+
+    // Container element
+    container: {
+        // We set flex to 1 since it's taking up the whole screen
+        flex: 1,
+        marginTop: 20 // Some extra margin up top to keep header content our to statusbar (only iOS needs this)
+    },
+
+    // All boxes get crimson colors.
+    box: {
+        backgroundColor: 'crimson'
+    },
+
+    // NOTE: Flex works on a ratio system.
+    // All of the child flex elements add up to eight,
+    // so all elements will take up a portion of the screen
+    // equal to their flex value divided by the total.
+    // In this case: 2/8, 5/8 and 1/8.
+
+    // Header styles
+    header: {
+        flex: 2, // Two eighths of the screen.
+        margin:10, // Some margin on all sides
+        alignItems: 'center', // Center elements horizontally.
+        justifyContent: 'center' // Center elements vertically.
+    },
+
+    // Body styles
+    body: {
+        flex: 5, // Five eighths of the screen.
+        margin:10,
+        marginTop: 0,
+        marginBottom: 0,
+        alignItems: 'center', // Center elements horizontally.
+        justifyContent: 'center' // Center elements vertically.
+    },
+
+    // Footer styles
+    footer: {
+        flex: 1, // One eighth of the screen.
+        margin: 10,
+        alignItems: 'center', // Center elements horizontally.
+        justifyContent: 'center' // Center elements vertically.
+    },
+
+    // Text styles
+    text: {
+        color: 'white',
+        fontSize: 24
+    }
 });
 
-AppRegistry.registerComponent('AhmedsApp', () => AhmedsApp);
+AppRegistry.registerComponent('flex1', () => AhmedsApp);
