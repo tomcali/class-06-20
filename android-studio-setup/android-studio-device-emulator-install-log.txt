@@ -1,0 +1,10 @@
+
+To install:
+- ARM 64 v8a System Image (system-images;android-24;default;arm64-v8a)
+Preparing "Install ARM 64 v8a System Image (revision: 7)".
+Downloading https://dl.google.com/android/repository/sys-img/android/arm64-v8a-24_r07.zip
+"Install ARM 64 v8a System Image (revision: 7)" ready.
+Finishing "Install ARM 64 v8a System Image (revision: 7)"
+Installing ARM 64 v8a System Image in /Users/poweruser/Library/Android/sdk/system-images/android-24/default/arm64-v8a
+"Install ARM 64 v8a System Image (revision: 7)" complete.
+"Install ARM 64 v8a System Image (revision: 7)" finished.

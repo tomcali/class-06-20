@@ -1,0 +1,8 @@
+Start with NetNinja’s series of beginner React tutorials:
+https://www.youtube.com/watch?v=yZ0f1Apb5CU&list=PL4cUxeGkcC9i0_2FF-WhtRIfIJ1lXlTZR
+Go further into Routing with Academind: 
+https://www.youtube.com/watch?v=eofpZPRUnP8
+Routing with Links and passing parameters with Academind: https://www.youtube.com/watch?v=5pt_igBTCsI 
+Learn about the difference between hashHistory and BrowserHistory with RallyCoding: https://www.youtube.com/watch?v=cdUyEou0LHg 
+ 
+ 

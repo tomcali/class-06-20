@@ -1,0 +1,27 @@
+export PATH=/Users/poweruser/Library/Enthought/Canopy_64bit/User/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/poweruser/mongodb/bin:JAVA_HOME/bin:ES_HOME/bin:
+export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+export ES_HOME="/Users/poweruser/dev/elasticsearch-2.2.0"
+
+# added by Anaconda3 2.3.0 installer
+export PATH="/Users/poweruser/anaconda/bin:$PATH"
+
+# added by Anaconda3 2.4.1 installer
+export PATH="//anaconda/bin:$PATH"
+# added by Anaconda3 4.2.0 installer
+export PATH="/Users/poweruser/anaconda/bin:$PATH"
+
+# update to accommodate two dropbox accounts
+# HOME=$HOME/Dropbox-personal /Applications/Dropbox.app/Contents/MacOS/Dropbox &
+
+GAPI_KEY=AIzaSyA9PrUNgKrx7VZe2ed5fM9781C75Yt3nk4 
+
+# dbConnect=mongodb://<dbuser>:<dbpassword>@ds019816.mlab.com:19816/people
+MLAB=mongodb://withoutatout:node2net@ds019816.mlab.com:19816/people
+
+# local copy of mongodb
+export PATH=/Users/poweruser/mongodb/bin:$PATH
+
+# add for android development work
+export ANDROID_HOME=/Users/your-username/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH=/Applications/Android\ Studio.app/sdk/tools:$PATH

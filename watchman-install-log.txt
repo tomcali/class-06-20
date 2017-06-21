@@ -1,0 +1,169 @@
+Last login: Sat Jun 17 09:39:47 on ttys002
+-bash: poweruser-2:~: command not found
+poweruser-2:~ poweruser$ brew install watchman
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+asdf            druid           grakn           jhipster        overmind
+bartycrouch     fd              iamy            jose            rustup-init
+cython          fsql            ipython         libmypaint      vips
+dcm2niix        get_iplayer     ipython@5       mariadb@10.1
+==> Updated Formulae
+abcl                       godep                      oniguruma
+advancemame                goenv                      onscripter
+afl-fuzz                   goofys                     openal-soft
+algernon                   gphoto2                    opencoarrays
+allure                     gradle                     openh264
+ammonite-repl              grafana                    openldap
+angular-cli                grails                     openssl ✔
+ansible                    groonga                    openssl@1.1
+ant@1.9                    harfbuzz                   opus
+apache-flink               heroku ✔                   osc
+apache-zeppelin            hg-fast-export             osh
+apktool                    highlight                  osquery
+arangodb                   hive                       p11-kit
+archi-steam-farm           huexpress                  pachi
+armor                      hugo                       packetbeat
+artifactory                hyper                      paket
+aubio                      hyperscan                  pandoc-citeproc
+awf                        i3status                   passenger
+aws-sdk-cpp                ibex                       pcap_dnsproxy
+awscli                     imagemagick                pcsc-lite
+azure-cli                  imagemagick@6              pdnsrec
+babl                       imageworsener              percona-server
+bandcamp-dl                imake                      pgcli
+basex                      influxdb@0.8               pgpdump
+bastet                     instead                    pgplot
+bazel                      ios-sim                    phoronix-test-suite
+bear                       irssi                      pilosa
+bee                        isync                      planck
+binaryen                   jansson                    ponscripter-sekai
+bind                       jboss-forge                portmidi
+bitrise                    jemalloc                   postgrest
+blackbox                   jenkins                    ppsspp
+bluepill                   jenkins-lts                pre-commit
+bmon                       jmeter                     prometheus
+cake                       jruby                      purescript
+calc                       jsonschema2pojo            pyenv
+cargo-completion           juju                       pyexiv2
+certbot                    juju@1.25                  pyinvoke
+chakra                     jvgrep                     pypy
+checkstyle                 kapacitor                  pypy3
+chkrootkit                 kerl                       qbs
+chromedriver               kibana                     qcachegrind
+chronograf                 kibana@4.1                 qt
+cimg                       knot                       radare2
+citus                      knot-resolver              rancher-cli
+ckan                       kobalt                     rbenv
+cmake ✔                    kompose                    rbenv-ctags
+cmark-gfm                  kops                       re2
+cockroach                  kotlin                     rebar@3
+collectd                   kubernetes-cli             riemann-client
+colordiff                  lablgtk                    rmlint
+conan                      lastpass-cli               rocksdb
+confuse                    latexila                   rom-tools
+consul                     leaps                      roswell
+consul-backinator          lfe                        rpm
+consul-template            libass                     rswift
+convox                     libbluray                  rtags
+cromwell                   libdap                     rtv
+crowdin                    libepoxy                   ruby-build
+ctop                       libextractor               rust
+curl                       libgcrypt                  s6
+davmail                    libgphoto2                 sassc
+dbhash                     libgweather                saxon
+dbt                        libhttpseverywhere         sbcl
+dcos-cli                   libimobiledevice           sdl2_mixer
+debianutils                libmagic                   sdl_mixer
+deis                       libmicrohttpd              sdl_sound
+dfmt                       libmikmod                  servus
+di                         libnfs                     sfcgal
+dialog                     liboping                   shc
+diff-so-fancy              libphonenumber             shellshare
+django-completion          libplist                   shfmt
+dmd                        libraw                     sjk
+dmenu                      libsass                    smali
+dnscrypt-wrapper           libtasn1                   smlnj
+dnsmasq                    libtensorflow              sourcekitten
+docker-cloud               libtermkey                 sourcery
+docker-credential-helper   libuv                      sphinx-doc ✔
+docker-machine             libvidstab                 sqldiff
+docker-machine-completion  libvirt                    sqlite
+doctl                      libxml2                    sqlite-analyzer
+docutils                   libzzip                    sqlmap
+dosbox                     lincity-ng                 squid
+dosbox-x                   llnode                     stern
+dovecot                    lmdb                       storm
+dpkg                       logstash                   strongswan
+duck                       logtalk                    supertux
+easyrpg-player             lolcat                     supervisor
+efl                        luvit                      svgcleaner
+elasticsearch              lxc                        swiftformat
+elixirscript               makepkg                    swiftlint
+elvish                     mame                       syncthing
+enigma                     mariadb                    syncthing-inotify
+etcd                       mariadb@10.0               tbb
+exiv2                      media-info                 telegraf
+fabio                      mediaconch                 teleport
+fabric                     menhir                     termius
+fetch-crl                  mercurial                  terraform
+ffmpeg                     meson                      terragrunt
+fibjs                      metabase                   tesseract
+file-formula               metricbeat                 the_silver_searcher
+filebeat                   micro                      tippecanoe
+fio                        micropython                tmux
+firebase-cli               mikmod                     tnef
+fish                       mikutter                   todolist
+fits                       miller                     tor
+flatbuffers                minetest                   translate-shell
+flow                       minio                      translate-toolkit
+fluent-bit                 minio-mc                   treefrog
+fmt                        moco                       twine-pypi
+fobis                      monetdb                    typescript
+folly                      monit                      ufoai
+fontconfig                 mono                       unbound
+fonttools                  mosquitto                  unrar
+fop                        mpd                        urh
+freeciv                    mpg123                     valgrind
+freeradius-server          msgpack                    vapoursynth
+freetds                    mtr                        vault
+fwup                       mutt                       vert.x
+fzf                        mvtools                    vim
+galen                      ncmpc                      wartremover
+gammaray                   ncmpcpp                    webpack
+ganglia                    ndpi                       wesnoth
+gdb                        ne                         wget
+gearman                    neo4j                      whois
+geckodriver                netpbm                     wine
+geeqie                     nghttp2                    winetricks
+gegl                       nifi                       wireguard-tools
+geoipupdate                nmap                       wireshark
+getdns                     node ✔                     wpcli-completion
+gexiv2                     node-build                 xmount
+git                        node@4                     xonsh
+git-annex                  node@6                     xsv
+git-town                   notmuch                    yank
+gitbucket                  npth                       yara
+gjs                        nspr                       yasm
+gmic                       ntopng                     yaz
+gnutls                     numpy                      yle-dl
+go                         offlineimap                youtube-dl
+go@1.7                     ola                        zanata-client
+==> Deleted Formulae
+autotrace                  snescom                    xplanetfx
+
+==> Installing dependencies for watchman: pcre
+==> Installing watchman dependency: pcre
+==> Downloading https://homebrew.bintray.com/bottles/pcre-8.40.sierra.bottle.tar
+######################################################################## 100.0%
+==> Pouring pcre-8.40.sierra.bottle.tar.gz
+==> Using the sandbox
+🍺  /usr/local/Cellar/pcre/8.40: 204 files, 5.4MB
+==> Installing watchman
+==> Downloading https://homebrew.bintray.com/bottles/watchman-4.7.0.sierra.bottl
+######################################################################## 100.0%
+==> Pouring watchman-4.7.0.sierra.bottle.tar.gz
+==> launchctl unload -F /Users/poweruser/Library/LaunchAgents/com.github.faceboo
+🍺  /usr/local/Cellar/watchman/4.7.0: 21 files, 429.5KB
+poweruser-2:~ poweruser$ 

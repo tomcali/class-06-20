@@ -1,0 +1,32 @@
+Preparing "Install Intel x86 Emulator Accelerator (HAXM installer) (revision: 6.1.1)".
+Downloading https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_1_1.zip
+https://dl.google.com/android/repository/extras/intel/haxm-macosx_r6_1_1.zip
+IntelHAXM_6.1.1.dmg
+silent_install.sh
+silent_install_readme.txt
+Release Notes.txt
+HAXM installation
+"Install Intel x86 Emulator Accelerator (HAXM installer) (revision: 6.1.1)" ready.
+Finishing "Install Intel x86 Emulator Accelerator (HAXM installer) (revision: 6.1.1)"
+Installing Intel x86 Emulator Accelerator (HAXM installer) in /Users/poweruser/Library/Android/sdk/extras/intel/Hardware_Accelerated_Execution_Manager
+"Install Intel x86 Emulator Accelerator (HAXM installer) (revision: 6.1.1)" complete.
+"Install Intel x86 Emulator Accelerator (HAXM installer) (revision: 6.1.1)" finished.
+Parsing /Users/poweruser/Library/Android/sdk/build-tools/26.0.0/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/emulator/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/android/m2repository/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/google/m2repository/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/intel/Hardware_Accelerated_Execution_Manager/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/patcher/v4/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/platform-tools/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/platforms/android-26/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/system-images/android-24/default/arm64-v8a/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/system-images/android-24/google_apis/x86_64/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/tools/package.xml
+
+
+Android SDK is up to date.
+Running Intel® HAXM installer
+Silent installation Pass! 
+Done

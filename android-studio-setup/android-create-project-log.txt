@@ -1,0 +1,25 @@
+
+Preparing "Install Solver for ConstraintLayout 1.0.2 (revision: 1)".
+Downloading https://dl.google.com/android/repository/com.android.support.constraint-constraint-layout-solver-1.0.2.zip
+"Install Solver for ConstraintLayout 1.0.2 (revision: 1)" ready.
+Finishing "Install Solver for ConstraintLayout 1.0.2 (revision: 1)"
+Installing Solver for ConstraintLayout 1.0.2 in /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2
+"Install Solver for ConstraintLayout 1.0.2 (revision: 1)" complete.
+"Install Solver for ConstraintLayout 1.0.2 (revision: 1)" finished.
+Preparing "Install ConstraintLayout for Android 1.0.2 (revision: 1)".
+Downloading https://dl.google.com/android/repository/com.android.support.constraint-constraint-layout-1.0.2.zip
+"Install ConstraintLayout for Android 1.0.2 (revision: 1)" ready.
+Finishing "Install ConstraintLayout for Android 1.0.2 (revision: 1)"
+Installing ConstraintLayout for Android 1.0.2 in /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2
+"Install ConstraintLayout for Android 1.0.2 (revision: 1)" complete.
+"Install ConstraintLayout for Android 1.0.2 (revision: 1)" finished.
+Parsing /Users/poweruser/Library/Android/sdk/build-tools/26.0.0/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/emulator/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/android/m2repository/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/google/m2repository/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout/1.0.2/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/patcher/v4/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/platform-tools/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/platforms/android-26/package.xml
+Parsing /Users/poweruser/Library/Android/sdk/tools/package.xml
