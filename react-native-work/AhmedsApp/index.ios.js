@@ -1,9 +1,9 @@
 //
-// ─── STYLE 1 (SOLVED) ─────────────────────────────────────────────────────────────
+// ─── STYLE 2 SOLVED ─────────────────────────────────────────────────────────────
 //
 
 // Students: Make this app's layout
-// reflect the design in layout1.jpg
+// reflect the design in layout2.jpg
 // =================================
 
 import React, { Component } from 'react';
@@ -15,68 +15,161 @@ import {
 } from 'react-native';
 
 class AhmedsApp extends Component {
+
+
+// note that the structure looks like bootstrap grid
+    // containers within rows
+    // every row has flex direction called row
     render() {
         return (
+            /* Container for all rows */
             <View style={styles.container}>
-              <View style=''>
-                <Text style={styles.header}>Header</Text>
-              </View>
-              <View style=''>
-                <Text style=''>Body</Text>
-              </View>
-              <View style=''>
-                <Text style=''>Footer</Text>
-              </View>
+
+                {/* Row 1 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>1</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>2</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>3</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>4</Text>
+                    </View>
+                </View>
+
+                {/* Row 2 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>5</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>6</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>7</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>8</Text>
+                    </View>
+                </View>
+
+                {/* Row 3 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>9</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>10</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>11</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>12</Text>
+                    </View>
+                </View>
+
+                {/* Row 4 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>13</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>14</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>15</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>16</Text>
+                    </View>
+                </View>
+
+                {/* Row 5 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>17</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>18</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>19</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>20</Text>
+                    </View>
+                </View>
+
+                {/* Row 6 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>21</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>22</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>23</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>24</Text>
+                    </View>
+                </View>
+
+                {/* Row 7 */}
+                <View style={styles.row}>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>25</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>26</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>27</Text>
+                    </View>
+                    <View style={styles.box}>
+                        <Text style={styles.text}>28</Text>
+                    </View>
+                </View>
+
             </View>
         );
     }
 }
 
-// this is where we do the react-native alternative to CSS styling
+// four styles do a lot in terms of stying things
 const styles = StyleSheet.create({
 
-    // Container element
+    // We set flex to 1 since it's taking up the whole screen
     container: {
-        // We set flex to 1 since it's taking up the whole screen
         flex: 1,
-        marginTop: 20 // Some extra margin up top to keep header content our to statusbar (only iOS needs this)
+        marginTop: 20 // Giving some extra top margin to the iOS container so the content isn't in the statusbar
     },
 
-    // All boxes get crimson colors.
+    // We set row to 1.
+    // Each will be one-xth of the screen,
+    // with x being the number of rows in the app.
+    // Since we have seven rows, each will take up 1/7th of the screen.
+    row: {
+        flex: 1,
+        flexDirection: 'row'
+    },
+
+    // Box styles
+    // Box's flex also gets set to 1.
+    // Since there's 4 elements in each row, each box is 1/4 of screen.
+    // They'll be placed horizontally as per row's flex direction.
     box: {
-        backgroundColor: 'crimson'
-    },
-
-    // NOTE: Flex works on a ratio system.
-    // All of the child flex elements add up to eight,
-    // so all elements will take up a portion of the screen
-    // equal to their flex value divided by the total.
-    // In this case: 2/8, 5/8 and 1/8.
-
-    // Header styles
-    header: {
-        flex: 2, // Two eighths of the screen.
-        margin:10, // Some margin on all sides
-        alignItems: 'center', // Center elements horizontally.
-        justifyContent: 'center' // Center elements vertically.
-    },
-
-    // Body styles
-    body: {
-        flex: 5, // Five eighths of the screen.
-        margin:10,
-        marginTop: 0,
-        marginBottom: 0,
-        alignItems: 'center', // Center elements horizontally.
-        justifyContent: 'center' // Center elements vertically.
-    },
-
-    // Footer styles
-    footer: {
-        flex: 1, // One eighth of the screen.
+        backgroundColor: 'crimson',
+        flex: 1, // Two eighths of the screen.
         margin: 10,
-        alignItems: 'center', // Center elements horizontally.
-        justifyContent: 'center' // Center elements vertically.
+        alignItems: 'center', // Center child elements horizontally.
+        justifyContent: 'center' // Center child elements vertically.
     },
 
     // Text styles
@@ -86,4 +179,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('flex1', () => AhmedsApp);
+AppRegistry.registerComponent('flex2', () => AhmedsApp);
